@@ -18,11 +18,11 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: tech_cn@argszero
+title: tech@argszero
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  技术博客
-baseurl: "/tech_cn" # the subpath of your site, e.g. /blog
+  tech articles @argszero
+baseurl: "/tech" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
@@ -51,6 +51,7 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
 defaults:
   - scope:
       path: "_posts"
